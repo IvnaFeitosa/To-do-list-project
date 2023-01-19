@@ -5,6 +5,6 @@ function addNewTask() {
     listItem.className = "list-item";
 
     const textElement = document.createTextNode(text);
-    listItem.appendChild(textElement);
-    listItem.appendChild(list);
+    list.appendChild(textElement);
+    list.appendChild(listItem);
 }
