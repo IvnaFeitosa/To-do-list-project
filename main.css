@@ -19,6 +19,7 @@ body{
 .list-item{
     margin-bottom:24px;
     margin-left:22px;
+    font-size: 14px;
 }
 input{
     height:32px;
@@ -30,12 +31,32 @@ input{
 }
 
 .add-task-button{
-background-color: #006400;
-border-width:0px;
-color:#ffffff;
-padding:8px;
-border-radius:4px;
-font-size:16px;
-font-weight:bold;
+  background-color: #006400;
+  border-width:0px;
+  color:#ffffff;
+  padding:8px;
+  border-radius:4px;
+  font-size:16px;
+  font-weight:bold;
+}
 
+.clear-list-button{
+  background-color: red;
+  border-width:0px;
+  color:#ffffff;
+  padding:8px;
+  border-radius:4px;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.delete-task-button {
+  background-color: blue;
+  border-width:0px;
+  color:#ffffff;
+  padding:8px;
+  border-radius:4px;
+  font-size:14px;
+  font-weight:bold;
+  margin-left: 20px
 }

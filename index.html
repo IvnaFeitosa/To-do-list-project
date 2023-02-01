@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de Tarefas</title>
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
 </head>
 <body>
     <div>
@@ -15,7 +14,11 @@
     </div>
     <div>
         <input type="text" id="task-name" name="task-name" placeholder="Nome da Tarefa"/>
-        <button onclick="addNewTask()">Adicionar</button>
+        <button id='add-task' class='add-task-button' onclick="addNewTask()">Adicionar</button>
+        <button id='clear-list' class='clear-list-button' onclick="clearList()">Limpar lista</button>
+
     </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>
