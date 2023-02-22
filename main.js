@@ -26,7 +26,7 @@ function addNewTask() {
     listItem.innerHTML = text
 
     // Adiciona botão para apagar tarega junto com li recém criado.
-    listItem.appendChild(createDeleteButton(listLength() + 1))
+    listItem.appendChild(createDeleteButton())
 
     // Adiciona li recém criado à lista.
     list.appendChild(listItem);
@@ -52,7 +52,7 @@ function createDeleteButton() {
 }
 
 function deleteItem(event) {
-    list.removeChild(event.path[1])
+    list.removeChild(event.srcElement.parentNode)
 }
 
 function clearList() {
