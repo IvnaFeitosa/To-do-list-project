@@ -1,7 +1,13 @@
+ 
 *{
     margin: 0;
     padding:0;
+    
 
+}
+.all-content{
+
+    text-align:center;
 }
 
 body{
@@ -14,7 +20,7 @@ body{
 .title{
     font-size:48px;
     color: #00ff7f;
-    margin-bottom:22px;
+    margin:50px 0;
 }
 .list-item{
     margin-bottom:24px;
@@ -30,12 +36,43 @@ input{
 }
 
 .add-task-button{
-background-color: #006400;
-border-width:0px;
-color:#ffffff;
-padding:8px;
-border-radius:4px;
-font-size:16px;
-font-weight:bold;
+    background-color: #006400;
+    border-width:0px;
+    color:#ffffff;
+    padding:8px;
+    border-radius:4px;
+    font-size:16px;
+    font-weight:bold;
+
+}
+.button, .delete-task-button{
+    padding: 8px 25px;
+    border-radius: 10px;
+    border:none;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.list-item{
+    
+    font-size: 20px;
+    list-style-type: none;
+}
+.delete-task-button{
+    margin-left: 20px;
+   
+}
+#task-name{
+    
+    padding: 2px 15px ;
+    margin-bottom: 20px;
+    width: 400px;
+    
+
+}
+.second-div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 
 }
