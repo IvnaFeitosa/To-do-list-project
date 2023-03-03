@@ -9,13 +9,21 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div>
-        <h1 class="title" >Tarefas do dia 17 de Janeiro</h1>
+   
+    <div class="all-content">
+        <h1 class="title">Lista de Tarefas</h1>
         <ul id="list"></ul>
     </div>
-    <div>
+<!--  <div id="container">
+        <p>Testando</p>
+    </dic> -->
+    <div class="all-content second-div">
         <input type="text" id="task-name" name="task-name" placeholder="Nome da Tarefa"/>
-        <button onclick="addNewTask()">Adicionar</button>
+        <div>
+            <button class="button" onclick="addNewTask()">Adicionar</button>
+            <button id='clear-list' class='clear-list-button button' onclick="clearList()">Limpar lista</button>
+        </div>
     </div>
+   
 </body>
 </html>
